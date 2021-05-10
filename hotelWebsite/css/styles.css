@@ -1,0 +1,339 @@
+/* Color Palette */
+/* #378A99
+#82EDFF
+#6AD3E6
+#A38872
+#E6A26A */
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 1rem;
+  font-family: serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+.container2 {
+  max-width: 960px;
+  margin: 0px auto;
+  height: 400px;
+  
+}
+
+/* Navbar */
+#navbar {
+  padding: 0px 15px;
+  background-color: #378A99;
+  overflow: hidden;
+  
+}
+
+#navbar div > a {
+  float: left;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+#navbar ul {
+  float: right;
+}
+
+#navbar ul li {
+ float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 27px;
+  color: white;
+}
+
+#navbar ul li a:hover {
+  color: #82EDFF;
+  background-color: #6AD3E6;
+}
+
+.current {
+  color: #82EDFF;
+  background-color: #6AD3E6;
+}
+
+/* Header */
+#header {
+  height: 600px;
+  background: white url('/images/hawaii.jpg') no-repeat center center/cover;
+}
+
+#header div {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+#header div h1 {
+  color: white;
+  
+}
+
+#header div h1 span{
+  color: #82EDFF;
+}
+
+#header div p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+#header div a {
+  display: inline-block;
+  padding: 9px;
+  font-size: 1rem;
+  color: white;
+  background-color: #82EDFF;
+  border-radius: 5px;
+}
+
+#header div a:hover {
+  background-color: #80e1f1;  
+}
+/* Main Section Styling */
+#main {
+  display: flex;
+  height: 450px;
+}
+
+.surfingImage {
+  background: white url('/images/surfing.jpg') no-repeat center center/cover;
+  width: 50%;
+  height: 100%;
+}
+
+.information {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #378A99;
+}
+
+#main div h3 {
+  font-size: 1.8rem;
+  padding: 15px 20px 20px 15px;
+}
+
+#main div h3 span {
+  color: #82EDFF;
+}
+
+.information p {
+  padding: 0 20px 15px 20px;
+  font-size: 1rem;
+}
+
+#main div a {
+  padding: 9px;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #40cde6;
+  border-radius: 5px;
+}
+
+#main div a:hover {
+  background-color: #80e1f1; 
+}
+
+/* Activities Section */
+#activities {
+  display: flex;
+  width: 100%;
+  height:300px;
+  text-align: center;
+}
+
+.location {
+  width: 33.3%;
+  height: 100%;
+  flex-direction: column; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  background-color: #82EDFF;
+  padding: 36px 5px;
+}
+
+.location h4 {
+  font-size: 1.3rem;
+  padding: 7px 20px 0 20px;
+}
+
+.location p {
+  font-size: 1.1rem;
+  padding: 5px 20px;
+}
+
+.freemeals {
+  width: 33.4%;
+  height: 100%;
+  flex-direction: column;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  background-color: #378A99;
+  
+}
+
+.freemeals h4 {
+  font-size: 1.3rem;
+  padding: 7px 20px 0 20px;
+}
+
+.freemeals p {
+  font-size: 1.1rem;
+  padding: 5px 20px;
+}
+
+.fitness {
+  width: 33.3%;
+  height: 100%; 
+  flex-direction: column; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  background-color: #82EDFF;
+  padding: 36px 5px;
+}
+
+.fitness h4 {
+  font-size: 1.3rem;
+  padding: 7px 20px 0 20px;
+}
+
+.fitness p {
+  font-size: 1.1rem;
+  padding: 5px 20px;
+}
+
+/* Footers Section */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #378A99;
+}
+
+footer p {
+  font-size: 0.7rem;
+}
+
+/* About Page Styling Section */
+
+/* Header Styling */
+#aboutHeader {
+  background-color: #82EDFF;
+  height: 420px;
+}
+
+#aboutHeader .left {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+#aboutHeader img {
+  float:right;
+  width: 45%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 20px;
+
+}
+
+#aboutHeader span {
+  color: #378A99;
+}
+
+#aboutHeader h1 {
+  padding: 40px 15px 5px 15px;
+}
+
+#aboutHeader p {
+  font-size: 1rem;
+  padding: 5px 15px 15px 15px;
+}
+
+/* Testimonials styling section */
+
+#testimonials {
+  height: 600px;
+  background: white url('/images/resto.jpg') no-repeat center center/cover;
+}
+
+.format {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#testimonials .container div {
+  padding: 5px;
+  background: #82EDFF;
+  overflow: hidden;
+  margin: 40px 15px 60px 15px;
+  opacity: 95%;
+
+}
+
+#testimonials .container div p {
+  font-size: 1rem;
+  padding-top: 17px;
+}
+
+#testimonials h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: px;
+}
